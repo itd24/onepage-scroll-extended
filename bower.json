@@ -1,7 +1,8 @@
 {
   "name": "onepage-scroll-extended",
+  "homepage": "https://github.com/itd24/onepage-scroll-extended",
   "version": "1.0.0",
-  "author": "Žiga Petek",
+  "author": "Ziga Petek",
   "main": [
     "jquery.onepage-scroll.extended.js",
     "onepage-scroll.css"
@@ -11,6 +12,7 @@
     "README.md"
   ],
   "dependencies": {
-    "jquery": "~1.10.2"
+    "jquery": "~1.10.2",
+    "modernizr":"~2.8.3"
   }
 }
