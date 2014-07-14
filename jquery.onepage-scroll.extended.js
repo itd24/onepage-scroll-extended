@@ -424,7 +424,7 @@
         updateHash:function(index) {
             if (window.history.replaceState && this.settings.updateURL === true) {
                 var href = window.location.href.substr(0, window.location.href.indexOf('#')) + "#" + index;
-                window.history.pushState({}, window.document.title, href);
+                window.history.replaceState({}, window.document.title, href);
             }
         },
         getCurrentIndex:function() {
