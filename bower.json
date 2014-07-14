@@ -1,7 +1,7 @@
 {
   "name": "onepage-scroll-extended",
   "homepage": "https://github.com/itd24/onepage-scroll-extended",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Ziga Petek",
   "main": [
     "jquery.onepage-scroll.extended.js",
